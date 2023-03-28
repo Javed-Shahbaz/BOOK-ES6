@@ -1,6 +1,5 @@
 import library from './library.js';
-
-export default function removeBook(id) {
+const removeBook = (id) => {
   const addBook = document.getElementById('book');
   const rmv = 'Rmv';
   for (let i = 0; i < addBook.children.length; i += 1) {
@@ -11,4 +10,5 @@ export default function removeBook(id) {
       window.localStorage.setItem('books', JSON.stringify(library.bookList));
     }
   }
-}
+};
+export default removeBook;
