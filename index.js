@@ -9,8 +9,8 @@ const clock = document.getElementById('time');
 clock.innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
 
 window.getValues = getValues;
-window.goAdd = goAdd;
-window.goContact = goContact;
-window.goList = goList;
+window.getAdd = getAdd;
+window.getContact = getContact;
+window.getList = getList;
 window.removeBook = removeBook;
 localStorage();
