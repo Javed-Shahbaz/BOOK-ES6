@@ -97,7 +97,7 @@ h2 {
 }
 
 .book-container:nth-child(even) {
-  background-color: rgb(20, 24, 21);
+  background-color: rgb(213, 153, 153);
 }
 
 .book-title {
