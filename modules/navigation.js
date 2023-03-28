@@ -2,19 +2,19 @@ const List = document.getElementById('lisTab');
 const AddNew = document.getElementById('addTab');
 const contactTab = document.getElementById('cTab');
 
-const goList = () => {
+const getList = () => {
   List.style.display = 'block';
   AddNew.style.display = 'none';
   contactTab.style.display = 'none';
 };
-const goAdd = () => {
+const getAdd = () => {
   List.style.display = 'none';
   AddNew.style.display = 'block';
   contactTab.style.display = 'none';
 };
-const goContact = () => {
+const getContact = () => {
   List.style.display = 'none';
   AddNew.style.display = 'none';
   contactTab.style.display = 'flex';
 };
-export { goList, goAdd, goContact };
+export { getList, getAdd, getContact };

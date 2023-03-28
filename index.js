@@ -1,5 +1,5 @@
 import getValues from './modules/addBook.js';
-import { goAdd, goContact, goList } from './modules/navigation.js';
+import { getAdd, getContact, getList } from './modules/navigation.js';
 import removeBook from './modules/deleteBook.js';
 import localStorage from './modules/localstorage.js';
 import { DateTime } from './modules/luxon.js';
