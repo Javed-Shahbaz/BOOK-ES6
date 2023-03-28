@@ -96,6 +96,10 @@ h2 {
   background-color: lightgray;
 }
 
+.book-container:nth-child(even) {
+  background-color: rgb(20, 24, 21);
+}
+
 .book-title {
   padding-left: 1%;
   font-weight: 700;
