@@ -93,7 +93,7 @@ h2 {
 }
 
 .book-container:nth-child(odd) {
-  background-color: lightgray;
+  background-color: rgb(154, 151, 151);
 }
 
 .book-container:nth-child(even) {
