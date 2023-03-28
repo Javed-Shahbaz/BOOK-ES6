@@ -8,7 +8,7 @@ export default function removeBook(id) {
     if (selected.id + rmv === id) {
       addBook.removeChild(selected);
       library.remove(i);
-      window.localStorage.setItem('books', JSON.stringify(library.bookArray));
+      window.localStorage.setItem('books', JSON.stringify(library.bookList));
     }
   }
 }
